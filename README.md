@@ -1,4 +1,4 @@
-# vue-cli-router-vuex
+﻿# vue-cli-router-vuex
 
 ## Project setup
 ```
@@ -29,4 +29,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-�޸�1
+修改1
