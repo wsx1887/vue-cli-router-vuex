@@ -16,8 +16,8 @@ module.exports = {
             
         },
         'shopping/shopping':{
-            entry:'src/pages/shopping/entry.js',
-            template:'public/index.html',
+            entry:'./src/pages/shopping/entry.js',
+            template:'./public/index.html',
             filename:'电商网站实例.html',
             title:'电商网站实例'
         }

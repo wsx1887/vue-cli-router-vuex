@@ -57,7 +57,7 @@ export default {
   components: { productItem },
   data() {
     return {
-        //选中的品牌，用于过滤
+      //选中的品牌，用于过滤
       filterBrand: "",
       //选中的颜色
       filterColor: "",
@@ -66,7 +66,7 @@ export default {
     };
   },
   computed: {
-      //取得所有商品
+    //取得所有商品
     list() {
       return this.$store.state.productList;
     },
@@ -80,7 +80,7 @@ export default {
     },
     //返回过滤后的商品列表
     filteredAndOrderedList() {
-        //？？？为什么要数组展开？？？
+      //数组展开
       let list = [...this.list];
       // 按品牌过滤
       if (this.filterBrand !== "") {
@@ -104,7 +104,7 @@ export default {
     }
   },
   methods: {
-      //点击品牌以筛选
+    //点击品牌以筛选
     handleFilterBrand(brand) {
       if (this.filterBrand === brand) {
         this.filterBrand = "";

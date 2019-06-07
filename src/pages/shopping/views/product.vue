@@ -33,9 +33,11 @@ export default {
   methods: {
     //根据id取得产品数据
     getProduct() {
+      let _this=this;
       this.product = this.$store.state.productList.find(
-        item => item.id === this.id
+        item => item.id === _this.id
       );
+      //console.log(this.$store.state.productList);
     },
     // 加入购物车
     handleAddToCart() {

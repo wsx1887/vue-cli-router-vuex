@@ -5,7 +5,7 @@ import store from "./store.js"
 
 Vue.config.productionTip=false;
 
-new Vue({
+window.shoppingVM=new Vue({
     el:"#app",
     router,
     store,
